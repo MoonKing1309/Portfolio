@@ -1,0 +1,55 @@
+.center-body
+{
+    position: relative;
+    padding-top: 8vh;
+    width: 85vw;
+    height: fit-content;
+    background-color: hsl(223, 20%, 17%);
+    color:white;
+    z-index: 0;
+    padding-left: 15vw;
+    overflow-x: hidden;
+    padding-bottom: 20px;
+    overflow-y: show;
+}
+
+
+.moon{
+    padding-top: 15px;
+    width: 450px;
+    height: 450px;
+}
+
+
+
+@media only screen and (min-width: 800px) {
+    
+    .center-body
+{
+    position: relative;
+    padding-top: 8vh;
+    width: 85vw;
+    height: fit-content;
+    background-color: hsl(223, 20%, 17%);
+    color:white;
+    z-index: 0;
+    padding-left: 25vw;
+    overflow-x: hidden;
+    padding-bottom: 20px;
+}
+}
+
+
+@media only screen and (max-width: 800px) {
+    
+    .iconimage,#icon-text
+    {
+        padding-left: 15vw;
+    }
+    .moon
+    {
+        width:300px;
+        height: 300px   ;
+    }
+}
+
