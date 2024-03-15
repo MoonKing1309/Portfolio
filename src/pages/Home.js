@@ -1,6 +1,6 @@
-import Navbar from '../../../portfolio/src/components/navbar'
-import Content from '../../../portfolio/src/components/content'
-import Footer from '../../../portfolio/src/components/footer'
+import Navbar from '../components/navbar'
+import Content from '../components/content'
+import Footer from '../components/footer'
 
 function Home() {
     return (
