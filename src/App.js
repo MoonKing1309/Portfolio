@@ -2,9 +2,9 @@ import './App.css';
 import {BrowserRouter as Router, Routes, Route, Link} from "react-router-dom";
 import Home from './pages/Home';
 import Project from './pages/Projects';
-import Navbar from '../../portfolio/src/components/navbar'
-import Content from '../../portfolio/src/components/content'
-import Footer from '../../portfolio/src/components/footer'
+import Navbar from './components/navbar'
+import Content from './components/content'
+import Footer from './components/footer'
 
 function App() {
   return (
